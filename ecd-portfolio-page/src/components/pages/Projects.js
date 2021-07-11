@@ -1,28 +1,19 @@
 import '../styles/Index.css';
 
 const styles = {
-    sectionStyles: {
+    projectsStyles: {
       background: '',
     },
   };
   
   
-  function Section() {
+  function Projects() {
     return (
-      <section style={styles.sectionStyles} className="section">
-        <h2>Lorem Ipsum Dolor Sit Amet</h2>
-        <p>
-
-        </p>
-        <p>
-
-        </p>
-        <p>
-
-        </p>
-      </section>
+      <projects style={styles.projectsStyles} className="projects">
+        <h2></h2>
+      </projects>
     );
   }
   
-  export default Section;
+  export default Projects;
   
