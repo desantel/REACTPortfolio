@@ -1,14 +1,14 @@
 import React from "react";
-import Header from './components/Header';
-import Projects from './components/Projects';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Header from './components/pages/Header';
+import Projects from './components/pages/Projects';
+import Navbar from './components/pages/Navbar';
+import Footer from './components/pages/Footer';
 
 function App() {
     return (
         <div>
-            <Navbar />
             <Header />
+            <Navbar />
             <Projects />
             <Footer />
         </div>

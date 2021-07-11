@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(249, 236, 204);
+}
+
+.header {
+    background-color: rgb(117, 70, 104);
+}
+
+.navbar {
+    background-color: rgb(117, 70, 104);
+}
+
+.navbar a {
+    color: rgb(181, 221, 164);
+    font-size: 20px;
+    justify-content: flex-end;
+}
