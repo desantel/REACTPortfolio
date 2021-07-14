@@ -1,19 +1,20 @@
-import '../styles/Index.css';
+import '../../styles/Index.css';
+import Header from './Header';
+// import Navbar from './Navbar';
+import Footer from './Footer';
 
-const styles = {
-    projectsStyles: {
-      background: '',
-    },
-  };
-  
-  
-  function Projects() {
-    return (
-      <projects style={styles.projectsStyles} className="projects">
-        <h2></h2>
-      </projects>
-    );
-  }
-  
-  export default Projects;
-  
+export default function Home() {
+  return (
+    <div>
+      <Header />
+      {/* <Navbar /> */}
+      <h1>
+        Project Page
+      </h1>
+      <p>
+
+      </p>
+      <Footer />
+    </div>
+  )
+}

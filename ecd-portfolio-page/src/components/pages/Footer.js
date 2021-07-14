@@ -1,4 +1,4 @@
-import '../styles/Index.css';
+import '../../styles/Index.css';
 
 
 const styles = {
