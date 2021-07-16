@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Projects from './pages/Projects';
 import Contact from './pages/contact';
 import Home from './pages/home';
+import Header from './pages/Header'
 import NavTabs from './navTabs';
 
 export default function PorfolioContainer() {
@@ -22,6 +23,7 @@ export default function PorfolioContainer() {
 
     return (
         <div>
+            <Header />
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
         </div>

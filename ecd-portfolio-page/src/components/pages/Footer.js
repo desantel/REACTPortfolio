@@ -10,7 +10,7 @@ const styles = {
   function Section() {
     return (
       <section style={styles.sectionStyles} className="section">
-        <h2>Lorem Ipsum Dolor Sit Amet</h2>
+        <h2></h2>
       </section>
     );
   }

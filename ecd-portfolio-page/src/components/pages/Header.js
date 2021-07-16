@@ -1,13 +1,5 @@
 import '../../styles/Index.css';
 
-// const styles = {
-//     headerStyle: {
-//         background: 'rgb(117, 70, 104)'
-//     },
-//     headingStyle: {
-//         color: 'rgb(181, 221, 164)'
-//     }
-// };
 
 function Header() {
     return(
