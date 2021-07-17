@@ -14,7 +14,7 @@ const styles = {
 
 export default function Home() {
     return (
-        <Container style={styles.homeStyle}>
+        <Container fluid>
             <Row id="aside">
                 <h2 id="aboutMe">About Me</h2>
                 <Col ><Image src={Headshot} alt="headshot" rounded fluid/></Col>

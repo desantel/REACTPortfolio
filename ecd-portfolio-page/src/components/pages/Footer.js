@@ -5,20 +5,19 @@ import Col from 'react-bootstrap/Col';
 
 
 const styles = {
-    sectionStyles: {
-      background: 'rgb(249, 236, 204)',
-    },
-  };
-    
-  function Section() {
-    return (
-      <Container style={styles.sectionStyles}>
-        <Row>
-        <Col justify-content-end>Elizabeth De Santis</Col>
-        </Row>
-      </Container>
-    );
-  }
-  
-  export default Section;
-  
+  sectionStyles: {
+    background: 'rgb(249, 236, 204)',
+  },
+};
+
+function Section() {
+  return (
+    <Container>
+      <Row>
+        <Col justify-content-end></Col>
+      </Row>
+    </Container>
+  );
+}
+
+export default Section;

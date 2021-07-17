@@ -10,3 +10,30 @@ body {
     border-color: rgb(117, 70, 104);
     padding: 5px;
 }
+
+#weather {
+    background-image: url("../assets/mainpage.png");
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    font-weight: bolder;
+    color: black;
+}
+
+#news {
+    background-image: url("../assets/purplenews.png");
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    font-weight: bolder;
+    color: black;
+}
+
+#hike {
+    background-image: url("../assets/dashboard.png");
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    font-weight: bolder;
+    color: black;
+}

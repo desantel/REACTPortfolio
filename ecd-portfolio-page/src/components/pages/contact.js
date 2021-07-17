@@ -13,9 +13,9 @@ const styles = {
 
 export default function Contact() {
     return (
-        <div style={styles.contactStyles}>
+        <div>
             <h2 id="contact">Contact Information</h2>
-            <Container style={styles.contactStyles}>
+            <Container fluid>
                 <Row>
                     <Col>
                         <ul class="contact-list">

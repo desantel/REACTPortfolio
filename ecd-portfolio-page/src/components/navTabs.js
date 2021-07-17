@@ -2,14 +2,14 @@
 // We assign them to their own variable names
 const styles = {
   navStyles: {
-    background: "rgb(249, 236, 204)",
+    color: "rgb(117, 70, 104)",
   }
 }
 
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs" style={styles.navStyles} justify-content-end>
+    <ul className="nav nav-tabs" styles={styles.navStyles} justify-content-end>
       <li className="nav-item">
         <a
           href="#home"
