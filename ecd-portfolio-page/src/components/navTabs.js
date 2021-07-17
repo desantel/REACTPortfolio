@@ -1,8 +1,15 @@
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
+const styles = {
+  navStyles: {
+    background: "rgb(249, 236, 204)",
+  }
+}
+
+
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs" style={styles.navStyles} justify-content-end>
       <li className="nav-item">
         <a
           href="#home"

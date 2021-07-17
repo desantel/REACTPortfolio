@@ -4,6 +4,9 @@ import Contact from './pages/contact';
 import Home from './pages/home';
 import Header from './pages/Header'
 import NavTabs from './navTabs';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import '../styles/Index.css';
 
 export default function PorfolioContainer() {
     const [currentPage, setCurrentPage] = useState('Home');
@@ -22,10 +25,12 @@ export default function PorfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
-            <Header />
-            <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
-        </div>
+        <Container fluid>
+            <Row>
+                <Header />
+                <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+                {renderPage()}
+            </Row>
+        </Container>
     )
 }

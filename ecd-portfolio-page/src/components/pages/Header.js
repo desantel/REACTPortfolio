@@ -1,5 +1,11 @@
 import '../../styles/Index.css';
 
+const styles = {
+    headerStyles: {
+        color: ""
+    }
+}
+
 
 function Header() {
     return(

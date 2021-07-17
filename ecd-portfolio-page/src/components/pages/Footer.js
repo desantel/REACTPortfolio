@@ -1,17 +1,22 @@
 import '../../styles/Index.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 const styles = {
     sectionStyles: {
-      background: '',
+      background: 'rgb(249, 236, 204)',
     },
   };
     
   function Section() {
     return (
-      <section style={styles.sectionStyles} className="section">
-        <h2></h2>
-      </section>
+      <Container style={styles.sectionStyles}>
+        <Row>
+        <Col justify-content-end>Elizabeth De Santis</Col>
+        </Row>
+      </Container>
     );
   }
   
