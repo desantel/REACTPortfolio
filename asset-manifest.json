@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/REACTPortfolio/static/css/main.36d3e877.chunk.css",
+    "main.js": "/REACTPortfolio/static/js/main.69e6a5ed.chunk.js",
+    "main.js.map": "/REACTPortfolio/static/js/main.69e6a5ed.chunk.js.map",
+    "runtime-main.js": "/REACTPortfolio/static/js/runtime-main.503440d1.js",
+    "runtime-main.js.map": "/REACTPortfolio/static/js/runtime-main.503440d1.js.map",
+    "static/css/2.4be38407.chunk.css": "/REACTPortfolio/static/css/2.4be38407.chunk.css",
+    "static/js/2.04afa58f.chunk.js": "/REACTPortfolio/static/js/2.04afa58f.chunk.js",
+    "static/js/2.04afa58f.chunk.js.map": "/REACTPortfolio/static/js/2.04afa58f.chunk.js.map",
+    "index.html": "/REACTPortfolio/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/REACTPortfolio/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.36d3e877.chunk.css.map": "/REACTPortfolio/static/css/main.36d3e877.chunk.css.map",
+    "static/js/2.04afa58f.chunk.js.LICENSE.txt": "/REACTPortfolio/static/js/2.04afa58f.chunk.js.LICENSE.txt",
+    "static/media/headshot.d7bcbedb.png": "/REACTPortfolio/static/media/headshot.d7bcbedb.png",
+    "static/media/Index.css": "/REACTPortfolio/static/media/purplenews.d3778af0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.503440d1.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.04afa58f.chunk.js",
+    "static/css/main.36d3e877.chunk.css",
+    "static/js/main.69e6a5ed.chunk.js"
+  ]
+}
