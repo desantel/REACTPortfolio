@@ -18,9 +18,9 @@ None installation needed.  Click on link to deploy pages
 ## Usage
 
 1. Once page is deployed, explore as desired.  
-2. ![homepage](./src/assets/homepage.png)
-3. ![projects](./src/assets/projects.png)
-4. ![contact](./src/assets/projects.png)
+2. ![homepage](./ecd-portfolio-page/src/assets/homepage.png)
+3. ![projects](./ecd-portfolio-page/src/assets/projects.png)
+4. ![contact](./ecd-portfolio-page/src/assets/projects.png)
 
 ## Tools
 
