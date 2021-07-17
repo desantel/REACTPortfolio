@@ -2,7 +2,8 @@ import '../../styles/Index.css';
 import Footer from './Footer';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col'
+import Col from 'react-bootstrap/Col';
+import { useForm } from 'react-hook-form';
 
 
 const styles = {
@@ -14,10 +15,10 @@ const styles = {
 export default function Contact() {
     return (
         <div>
-            <h2 id="contact">Contact Information</h2>
             <Container fluid>
                 <Row>
                     <Col>
+                        <h2>Contact Information</h2>
                         <ul class="contact-list">
                             <li class="" id="">Telephone: ###-###-####</li>
                             <li class="" id="">Email: elizabeth.desantis90@gmail.com</li>
@@ -29,6 +30,18 @@ export default function Contact() {
                             <li class="" id=""><a href="../assets/Elizabeth De Santis Resume.pdf"
                                 target="_blank" download>Resume</a></li>
                         </ul>
+                    </Col>
+                    <Col>
+                        <h2>Contact Form</h2>
+                        <form id='contact-form'>
+                            <input type='text' name='user_name' placeholder='Name' />
+                            <br />
+                            <input type='email' name='user_email' placeholder='Email' />
+                            <br />
+                            <textarea name='message' placeholder='Message' />
+                            <br />
+                            <input type='submit' value='Send' />
+                        </form>
                     </Col>
                 </Row>
             </Container>

@@ -20,6 +20,21 @@ body {
     color: black;
 }
 
+#weather a {
+    color: black;
+    text-decoration: none;
+}
+
+#news a {
+    color: black;
+    text-decoration: none;
+}
+
+#hike a {
+    color: black;
+    text-decoration: none;
+}
+
 #news {
     background-image: url("../assets/purplenews.png");
     width: 300px;
@@ -37,3 +52,12 @@ body {
     font-weight: bolder;
     color: black;
 }
+
+input {
+    width: 600px;
+  }
+  
+  textarea {
+    height: 10em;
+    width: 600px;
+  }
