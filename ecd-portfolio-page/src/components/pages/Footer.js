@@ -4,12 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
-const styles = {
-  sectionStyles: {
-    background: 'rgb(249, 236, 204)',
-  },
-};
-
 function Section() {
   return (
     <Container>

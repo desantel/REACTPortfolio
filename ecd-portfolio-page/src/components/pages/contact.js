@@ -3,14 +3,6 @@ import Footer from './Footer';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { useForm } from 'react-hook-form';
-
-
-const styles = {
-    contactStyles: {
-        background: 'rgb(249, 236, 204)',
-    },
-};
 
 export default function Contact() {
     return (

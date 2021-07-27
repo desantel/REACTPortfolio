@@ -6,11 +6,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image'
 
-const styles = {
-        homeStyle: {
-      background: 'rgb(249, 236, 204)',
-    },
-  };
 
 export default function Home() {
     return (

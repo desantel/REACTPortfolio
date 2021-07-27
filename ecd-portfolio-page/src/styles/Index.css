@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(234, 234, 234);
+    background-color: rgb(255, 242, 241);
 }
 
 .header {
     background-color: rgb(117, 70, 104);
-    color:  rgb(234, 234, 234);
+    color:  rgb(181, 221, 164);
     border-width: 5px;
     border-style: solid;
     border-color: rgb(117, 70, 104);
